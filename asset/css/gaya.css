@@ -1,14 +1,17 @@
-body {
-  font-family: cambria;
-  background: #347B98;
+html, body {
+  
+  margin: 0;
+  padding: 0;
 }
 
-main	{
-	background-color: #5a5f72;
-	overflow: auto;
-	padding: 20px;
+body	{
+	font-family: cambria;
+	background: #347B98;
+	line-height: 1.65;
+}
 
-	}
+
+
 /*Perintah untuk diterapkan di Header*/
 .sip {
   list-style-type: none;
@@ -29,7 +32,7 @@ li a, .tombol {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 4px 6px;
   text-decoration: none;
   font-family: calibri;
 }
@@ -53,7 +56,7 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 4px 4px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -78,10 +81,17 @@ nav {
    margin: 0px;
    display: flex;
    border-bottom: 5px solid white;
+   border-radius: ;
 }
 
 /*Perintah di atas diterapkan di Header*/
-
+main	{
+	background-color: #5a5f72;
+	overflow: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	display:flex;
+	}
 .clearfix {
 	overflow: auto;
 	}
@@ -119,51 +129,7 @@ dt	{
 	width: 300px;
 	}
 
-/*Perintah untuk diterapkan di footer*/
 
-p.kaki-2{
-	text-align: center;
-	font-family: verdana;	
-	}
-td.kaki	{
-	font-family: calibri;
-	font-size: 10px;
-	text-align:left;
-	vertical-align:middle;
-	}
-a.kaki:link {
-	color:white;
-	text-align:left;
-	text-decoration:none;
-	}
-a.kaki:hover {
-	color:yellow;
-	text-decoration:underline;
-	}
-a.ig:visited {
-	color:puprle;
-	}
-a.fb:visited {
-	color:blue;
-	}
-a.email:visited {
-	color:red;
-	}
-a.wa:visited {
-	color:green;
-	}
-footer	{
-    bottom: 0px;
-	margin: 0;
-	background-color:black;
-	border-top: 2px solid yellow;
-	padding:2px;
-	color: white;
-	bottom: 0; left: 0;
-	width: 100%;
-	}
-
-/*Perintah untuk diterapkan di footer*/
 
 /*Di bawah ini perintah untuk diterapkan di elemn body*/
 
@@ -316,10 +282,52 @@ aside {
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
 
-*	{
-	box-sizing: border-box;
-	display: block;
+/*Perintah untuk diterapkan di footer*/
+
+p.kaki-2{
+	text-align: center;
+	font-family: verdana;	
 	}
+td.kaki	{
+	font-family: calibri;
+	font-size: 10px;
+	text-align:left;
+	vertical-align:middle;
+	}
+a.kaki:link {
+	color:white;
+	text-align:left;
+	text-decoration:none;
+	}
+a.kaki:hover {
+	color:yellow;
+	text-decoration:underline;
+	}
+a.ig:visited {
+	color:puprle;
+	}
+a.fb:visited {
+	color:blue;
+	}
+a.email:visited {
+	color:red;
+	}
+a.wa:visited {
+	color:green;
+	}
+footer	{
+    bottom: 0px;
+	margin: 0;
+	background-color:black;
+	border-top: 2px solid yellow;
+	padding:2px;
+	color: white;
+	bottom: 0; left: 0;
+	width: 100%;
+	}
+
+/*Perintah untuk diterapkan di footer*/
+
 
 @media screen and (max-width: 1000px) {
    #content,
