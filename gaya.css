@@ -111,6 +111,7 @@ main	{
 	flex: 2;
 	display: flex;
 	flex-direction: column;
+	border: 2px solid white;
 }
 
 .atas	{
@@ -298,6 +299,25 @@ div.ketiga	{
 
 
 /*Di bawah ini perintah untuk diterapkan di elemn asside*/
+
+aside {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profil {
+	display: flex;
+	flex-direction: column;
+}
+
+.profil span{
+	margin: auto;
+}
+
+aside th {
+	text-align: left;
+}
 
 
 
