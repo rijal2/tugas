@@ -319,7 +319,13 @@ aside th {
 	text-align: left;
 }
 
+	.display-produk	{
+		display: flex;
+		flex-direction: column;
+		border: 2px solid yellowgreen;
+	}
 
+	
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
 
