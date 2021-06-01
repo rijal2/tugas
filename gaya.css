@@ -331,14 +331,14 @@ aside {
 	.produk	{
 		border: 2px solid #02040eee;
 		border-radius: 10px;
-		background-color: rgba(24, 91, 136, 0);
+		background-color: black;
 		overflow: hidden;
 	}
 
 	.produk .judul {
 		display: flex;
 		flex-direction: column;
-		height: 170px;
+		height: 200px;
 		background-color: #1E90FF;
 		margin: 0;
 		color: yellow;
@@ -347,6 +347,7 @@ aside {
 
 	.produk .isi {
 		text-align: center;
+		color: #A0DAA9;
 	}
 
 	.judul img	{
