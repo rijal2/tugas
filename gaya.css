@@ -338,7 +338,7 @@ aside {
 	.produk .judul {
 		display: flex;
 		flex-direction: column;
-		height: 200px;
+		height: 180px;
 		background-color: #1E90FF;
 		margin: 0;
 		color: yellow;
@@ -350,9 +350,20 @@ aside {
 		color: #A0DAA9;
 	}
 
+	.isi p{
+		text-align: center;
+	}
+
 	.judul img	{
 		width: 260px;
 		height: 145px;
+	}
+
+	.judul span	{
+		height: 30px;
+		margin: 0;
+		padding: 0;
+		border: 10px solid green;
 	}
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
