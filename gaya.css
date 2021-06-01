@@ -306,18 +306,21 @@ aside {
 	align-items: center;
 }
 
-.profil {
-	display: flex;
-	flex-direction: column;
-}
+	/* Profil */
+	.profil {
+		display: flex;
+		flex-direction: column;
+		border: 2px solid yellowgreen;
+	}
 
-.profil span{
-	margin: auto;
-}
+	.profil span{
+		margin: auto;
+		
+	}
 
-aside th {
-	text-align: left;
-}
+	aside th {
+		text-align: left;
+	}
 
 	.display-produk	{
 		display: flex;
@@ -340,6 +343,12 @@ aside th {
 
 	.produk .isi {
 		text-align: center;
+	}
+
+	/* Daftar Produk */
+	.judul img	{
+		width: 270px;
+		height: 170px;
 	}
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
