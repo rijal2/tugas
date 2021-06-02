@@ -1,5 +1,4 @@
 html, body {
-  
   margin: 0;
   padding: 0;
 }
@@ -8,8 +7,6 @@ body	{
 	font-family: cambria;
 	background: #347B98;
 }
-
-
 
 /*Perintah untuk diterapkan di Header*/
 .sip {
@@ -75,37 +72,13 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-bottom: 5px solid white;
 	border-radius: 5px solid green;
 	height: 640px;
 	width: 100%;
+	background: url(asset/css/bg-1.jpg);
+	background-size: auto;
  }
  
-.utama	{
-	width: 100%;
-	padding: 20px;
-	box-sizing: border-box;
-	display:flex;
-	flex-direction: row;
-	margin: 5px;
-	border-color: #EFE1CE;
-	}
-
-.utama div {
-	margin: 5px;
-}
-
-.konten-utama {
-	flex: 8;
-}
-
-.konten-aside	{
-	flex: 2;
-	display: flex;
-	flex-direction: column;
-	border: 2px solid white;
-}
-
 .gambar-header {
 	margin-top: 10px;
 	padding: 5px;
@@ -118,6 +91,8 @@ nav {
 
 	.header-1{
 	width: 600px;
+	margin-right: 5px;
+	margin-left: 5px;
 	display: flex;
 	}
 
@@ -130,13 +105,19 @@ nav {
 	.header-1 span	{
 		margin: auto;
 		align-items: center;
+		background-color: darkred;
+		padding: 5px 10px;
+		text-align: center;
+		border-radius: 15px;
+		border:2px solid rgb(1, 1, 70);
 	}
 
 	.h1-1 {
 		font-family: Copperplate, Papyrus, fantasy;
-		font-size: 60px;
+		font-size: 50px;
 		text-shadow: 3px 3px 3px;
 		text-align: center;
+		color: azure;
 	}
 
 	.h1-2  {
@@ -146,14 +127,16 @@ nav {
 		text-align: center;
 	}
 	h2	{
-		color: red;
+		color:tomato;
 		text-align: center;
 		font-family: cambria;
 	}
 
 .tulisan-header	{
+	align-self: flex-end;
 	width: 100%;
-	background-color: saddlebrown;
+	height: 60px;
+	background-color: blue;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -163,21 +146,49 @@ nav {
 		width: 75%;
 		height: 60%;
 		border-radius: 15px;
-		background-color: teal;
+		background-color:thistle;
 		display: flex;
 		align-items: center;
 	}
 
 	.h1-2.tulisan {
+		font-family: 'Righteous', cursive;
 		font-size: 25px;
+		color: #8B4513;
 	}
 
 
 /*Di bawah ini perintah untuk diterapkan di elemn body*/
 main	{
 	background-color: #5a5f72;
-	
 }
+	.utama 	{
+		width: 100%;
+		padding: 20px;
+		padding-bottom: 0px;
+		box-sizing: border-box;
+		display:flex;
+		flex-direction: row;
+		margin: 5px;
+		border-color: #EFE1CE;
+	}
+	
+	.utama div {
+		margin: 5px;
+	}
+	
+	.konten-utama {
+		flex: 8;
+	}
+	
+	.konten-aside	{
+		flex: 2;
+		display: flex;
+		flex-direction: column;
+		border: 2px solid white;
+	}
+	
+	
 .angkut {
 	border-top: 5px solid white;
 	display: flex;
@@ -370,7 +381,7 @@ aside {
 		flex-direction: column;
 		align-items: center;
 		height: 180px;
-		background-color: #1E90FF;
+		background-color: blue;
 		margin: 0;
 		padding: 0;
 		color: yellow;
@@ -391,18 +402,18 @@ aside {
 		height: 145px;
 	}
 
-	.judul span	{
-		height: 30px;
-		margin: auto;
-		padding: 0;
-		border: 10px solid green;
-	}
-
 	.judul div {
+		width: 90%;
 		background-color: #8B4513;
-		border: 2px solid darkblue;
+		border: 2px solid rgb(1, 1, 70);
 		border-radius: 25px;
 		height: 25px;
+		margin: auto;
+		display: flex;
+	}
+
+	.judul div span	{
+		margin: auto;
 	}
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
@@ -454,11 +465,10 @@ footer	{
 /*Perintah untuk diterapkan di footer*/
 
 
-@media screen and (max-width: 1000px) {
-   #content,
-   aside {
-       width: 100%;
-       padding: 0;
+@media (max-width: 760px) {
+   .utama	{
+	   display: flex;
+	   flex-direction: column;
    }
 }
 
