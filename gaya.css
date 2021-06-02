@@ -198,6 +198,7 @@ main	{
 
 .angkut-allbox div {
 	flex-direction: row;
+	padding: 0 2px 2px;
 }
 
 .box	{
@@ -480,8 +481,12 @@ footer	{
 	.angkut-allbox	{
 		display: flex;
 		flex-direction: column;
-		width: 100%;
 		align-content: center;
+		width: 100%;
+	}
+
+	.angkut-allbox div, .margin-div, .box	{
+		width: 100%;
 	}
 }
 
