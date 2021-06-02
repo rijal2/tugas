@@ -68,26 +68,18 @@ li.dropdown {
 nav {
 	position: sticky;
 	top: 0;
-	}
-.jumbotron {
-   font-size: 20px;
-   padding: 60px;
-   background: url(3.jpg);
-   text-align: center;
-   color: white;
-   margin: 0px;
-   display: flex;
-   border-bottom: 5px solid white;
-   border-radius: 5px solid green;
 }
 
 /*Perintah di atas diterapkan di Header*/
-
-main	{
-	background-color: #5a5f72;
-	
-}
-
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 5px solid white;
+	border-radius: 5px solid green;
+	height: 640px;
+	width: 100%;
+ }
+ 
 .utama	{
 	width: 100%;
 	padding: 20px;
@@ -119,35 +111,56 @@ main	{
 }
 
 .gambar-header {
-	background: #20B2AA;
-	border-radius: 25px;
-	height: 120%; width: auto;
+	margin-top: 10px;
+	padding: 5px;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	}
 
-.h1-1 {
-	font-family: Copperplate, Papyrus, fantasy;
-	font-size: 60px;
-	text-shadow: 3px 3px 3px;
-	text-align: left;
+	.header-1{
+	width: 600px;
+	display: flex;
 	}
 
-.h1-2  {
-	font-family: Papyrus, fantasy;
-	font-size: 20px;
-	color: yellow;
-	}
-h2	{
-	color: red;
-	text-align: center;
-	font-family: cambria;
+	.header-1 img	{
+		width: 550px;
+		height: 350px;
+		margin: auto;
 	}
 
+	.header-1 span	{
+		margin: auto;
+		align-items: center;
+	}
 
+	.h1-1 {
+		font-family: Copperplate, Papyrus, fantasy;
+		font-size: 60px;
+		text-shadow: 3px 3px 3px;
+		text-align: center;
+	}
 
+	.h1-2  {
+		font-family: Papyrus, fantasy;
+		font-size: 20px;
+		color: yellow;
+		text-align: center;
+	}
+	h2	{
+		color: red;
+		text-align: center;
+		font-family: cambria;
+	}
 
 
 /*Di bawah ini perintah untuk diterapkan di elemn body*/
-
+main	{
+	background-color: #5a5f72;
+	
+}
 .angkut {
 	border-top: 5px solid white;
 	display: flex;
@@ -341,6 +354,7 @@ aside {
 		height: 180px;
 		background-color: #1E90FF;
 		margin: 0;
+		padding: 0;
 		color: yellow;
 		text-align: center;
 	}
@@ -364,6 +378,13 @@ aside {
 		margin: 0;
 		padding: 0;
 		border: 10px solid green;
+	}
+
+	.judul div {
+		background-color: #8B4513;
+		border: 2px solid darkblue;
+		border-radius: 25px;
+		height: 25px;
 	}
 
 /*Di atas adalah perintah untuk diterapkan di elemn asside*/
