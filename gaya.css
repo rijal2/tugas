@@ -469,6 +469,14 @@ footer	{
 	   flex-direction: column;
    }
 
-   /*  */
+   /* tampilan pada element konten dan aside */
+   .konten-utama {
+	width: 500px;
+	}
+
+	.konten-aside	{
+	width: 500px;
+	
+}
 }
 
