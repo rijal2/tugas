@@ -153,7 +153,7 @@ nav {
 
 	.h1-2.tulisan {
 		font-family: 'Righteous', cursive;
-		font-size: 25px;
+		font-size: 20px;
 		color: #8B4513;
 	}
 
@@ -161,6 +161,7 @@ nav {
 /*Di bawah ini perintah untuk diterapkan di elemn body*/
 main	{
 	background-color: #5a5f72;
+	width: 100%;
 }
 	.utama 	{
 		width: 100%;
@@ -169,12 +170,11 @@ main	{
 		box-sizing: border-box;
 		display:flex;
 		flex-direction: row;
-		margin: 5px;
 		border-color: #EFE1CE;
 	}
 	
 	.utama div {
-		margin: 5px;
+		margin: 2px;
 	}
 	
 	.konten-utama {
@@ -206,7 +206,6 @@ main	{
 	border: 2px solid green;
 	}
 .margin-div {
-		margin: 30px;
 		border: 2px solid yellow;
 		}		
 h2	{
@@ -417,6 +416,7 @@ aside {
 
 /*Perintah untuk diterapkan di footer*/
 
+
 p.kaki-2{
 	text-align: center;
 	font-family: verdana;	
@@ -449,14 +449,12 @@ a.wa:visited {
 	color:green;
 	}
 footer	{
-    bottom: 0px;
-	margin: 0;
 	background-color:black;
 	border-top: 2px solid yellow;
-	padding:2px;
+	padding: 5px;
 	color: white;
 	bottom: 0; left: 0;
-	width: 100%;
+	width: 99,5%;
 	}
 
 /*Perintah untuk diterapkan di footer*/
@@ -471,12 +469,19 @@ footer	{
 
    /* tampilan pada element konten dan aside */
    .konten-utama {
-	width: 500px;
+	width: 100%;
 	}
 
 	.konten-aside	{
-	width: 500px;
-	
-}
+	width: 100%;
+	}
+
+	/* tampilan pada konten-1 */
+	.angkut-allbox	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-content: center;
+	}
 }
 
