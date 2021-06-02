@@ -189,20 +189,17 @@ main	{
 	}
 	
 	
-.angkut {
+.angkut-allbox {
 	border-top: 5px solid white;
 	display: flex;
-	
-	}
-
-.angkut div {
-	flex-direction: row;
-}
-
-.allbox	{
 	background: #8B4513;
 	border-radius: 25px solid yellow;
 	}
+
+.angkut-allbox div {
+	flex-direction: row;
+}
+
 .box	{
 	height: auto;
 	margin: 10px;
@@ -466,9 +463,12 @@ footer	{
 
 
 @media (max-width: 760px) {
+	/* tampilan main div utama */
    .utama	{
 	   display: flex;
 	   flex-direction: column;
    }
+
+   /*  */
 }
 
