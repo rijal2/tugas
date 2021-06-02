@@ -74,6 +74,7 @@ nav {
 .jumbotron {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	border-bottom: 5px solid white;
 	border-radius: 5px solid green;
 	height: 640px;
@@ -105,16 +106,11 @@ nav {
 	border: 2px solid white;
 }
 
-.atas	{
-	padding: 20px;
-	border-radius: 25px;
-}
-
 .gambar-header {
 	margin-top: 10px;
 	padding: 5px;
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
@@ -127,7 +123,7 @@ nav {
 
 	.header-1 img	{
 		width: 550px;
-		height: 350px;
+		height: 200px;
 		margin: auto;
 	}
 
@@ -153,6 +149,27 @@ nav {
 		color: red;
 		text-align: center;
 		font-family: cambria;
+	}
+
+.tulisan-header	{
+	width: 100%;
+	background-color: saddlebrown;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+	.tulisan-header-1	{
+		width: 75%;
+		height: 60%;
+		border-radius: 15px;
+		background-color: teal;
+		display: flex;
+		align-items: center;
+	}
+
+	.h1-2.tulisan {
+		font-size: 25px;
 	}
 
 
@@ -351,6 +368,7 @@ aside {
 	.produk .judul {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		height: 180px;
 		background-color: #1E90FF;
 		margin: 0;
@@ -375,7 +393,7 @@ aside {
 
 	.judul span	{
 		height: 30px;
-		margin: 0;
+		margin: auto;
 		padding: 0;
 		border: 10px solid green;
 	}
