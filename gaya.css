@@ -165,7 +165,7 @@ main	{
 }
 	.utama 	{
 		width: 100%;
-		padding: 20px;
+		padding: 10px;
 		padding-bottom: 0px;
 		box-sizing: border-box;
 		display:flex;
@@ -179,6 +179,7 @@ main	{
 	
 	.konten-utama {
 		flex: 8;
+		border: 4px solid blue;
 	}
 	
 	.konten-aside	{
@@ -371,6 +372,7 @@ aside {
 		border-radius: 10px;
 		background-color: black;
 		overflow: hidden;
+		width: 230px;
 	}
 
 	.produk .judul {
@@ -475,6 +477,19 @@ footer	{
 
 	.konten-aside	{
 	width: 100%;
+	}
+
+	.display-produk	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.isi	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 	/* tampilan pada konten-1 */
