@@ -6,6 +6,7 @@ html, body {
 body	{
 	font-family: cambria;
 	background: #347B98;
+	width: 100%;
 }
 
 /*Perintah untuk diterapkan di Header*/
@@ -15,7 +16,9 @@ body	{
   padding: 0;
   overflow: hidden;
   background-color: green;
-  border-radius: 25px;
+  border-radius: 15px;
+  height: 35px;
+  width: 100%;
 }
 
 li.header {
@@ -162,54 +165,56 @@ nav {
 main	{
 	background-color: #5a5f72;
 	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 	.utama 	{
-		width: 100%;
-		padding: 10px;
-		padding-bottom: 0px;
-		box-sizing: border-box;
+		width: 99%;
 		display:flex;
 		flex-direction: row;
-		border-color: #EFE1CE;
+		justify-content: center;
+		margin-left: 10px;
 	}
-	
-	.utama div {
+
+	.utama div	{
 		margin: 2px;
 	}
 	
 	.konten-utama {
-		flex: 8;
-		border: 4px solid blue;
+		flex: 4;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 	
 	.konten-aside	{
-		flex: 2;
+		flex: 1;
 		display: flex;
 		flex-direction: column;
-		border: 2px solid white;
 	}
 	
 	
 .angkut-allbox {
 	border-top: 5px solid white;
 	display: flex;
-	background: #8B4513;
-	border-radius: 25px solid yellow;
-	}
-
-.angkut-allbox div {
 	flex-direction: row;
-	padding: 0 2px 2px;
-}
-
-.box	{
-	height: auto;
-	margin: 10px;
-	border: 2px solid green;
+	flex-wrap: wrap;
 	}
-.margin-div {
-		border: 2px solid yellow;
-		}		
+
+.box-1	{
+	height: auto;
+	margin: 2px;
+	flex: 2;
+	}
+.box-2 {
+	height: auto;
+	margin: 2px;
+	flex: 3;
+	display: flex;
+
+	}
+
 h2	{
 	color: black;
 	font-family: "Brush Script MT", cursive;
@@ -219,33 +224,6 @@ p, dt	{
 	text-align:justify;
 	}
 
-.satu {
-	width: 40%;
-}
-div.pertama	{
-	left: 10px;
-	top: 500;
-	height: auto;
-	width: 60%;
-	}
-
-.dua {
-	width: 40%;
-	}
-div.kedua	{
-	left: 15px;
-	height: auto;
-	width: 60%;
-	}
-
-.tiga {
-	width: 40%;
-	}
-div.ketiga	{
-	left: 0px;
-	height: auto;
-	width: 60%;
-	}
 .ul-1	{
 	list-style-type:none;
 	border-radius: 25px;
@@ -331,7 +309,18 @@ div.ketiga	{
 }
 
 .ph	{
-	color: yellow;}
+	color: white;
+	background: url(asset/css/bg-2.jpg);
+	background-size: 100% 100%;
+	margin: 4px 2px 1px;
+	text-align: center;
+	padding: 4px 3px 3px;
+}
+
+
+.ph p	{
+	padding: 4px 2px 0;
+}
 
 /*Di atas adalah perintah untuk diterapkan di elemn body*/
 
@@ -348,23 +337,51 @@ aside {
 	.profil {
 		display: flex;
 		flex-direction: column;
-		border: 2px solid yellowgreen;
+		justify-content: center;
+		width: 230px;
+		background-color: teal;
+		border: 4px solid turquoise;
+		border-radius: 15px 15px 0 0;
 	}
 
-	.profil span{
+	.profil div {
 		margin: auto;
 		
 	}
 
 	aside th {
 		text-align: left;
+		color: yellow;
 	}
 
+	aside td {
+		color: white;
+	}
+
+	/* Daftar */
+	.daftar	{
+		display: flex;
+		flex-direction: row;
+		width: 230px;
+		height: 50px;
+		background-color: purple;
+		color: rgb(252, 251, 249);
+		border-radius: 15px solid rgb(2, 2, 71);
+		margin-top: 5px;
+		margin-bottom: 2px;
+	}
+
+	.daftar span	{
+		margin: auto;
+	}
+
+	.kosongan	{
+		height: 10px;
+	}
 	/* Daftar Produk */
 	.display-produk	{
 		display: flex;
 		flex-direction: column;
-		border: 2px solid yellowgreen;
 	}
 
 	.produk	{
@@ -457,24 +474,32 @@ footer	{
 	padding: 5px;
 	color: white;
 	bottom: 0; left: 0;
-	width: 99,5%;
+	width: 100%;
 	}
 
 /*Perintah untuk diterapkan di footer*/
 
 
-@media (max-width: 760px) {
+@media (max-width: 700px) {
 	/* tampilan main div utama */
    .utama	{
 	   display: flex;
 	   flex-direction: column;
+	   justify-content: center;
    }
 
    /* tampilan pada element konten dan aside */
    .konten-utama {
 	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	}
 
+	.profil	{
+	width: 95%;
+	}
 	.konten-aside	{
 	width: 100%;
 	}
@@ -496,12 +521,15 @@ footer	{
 	.angkut-allbox	{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-content: center;
-		width: 100%;
+		width: 80%;
 	}
 
-	.angkut-allbox div, .margin-div, .box	{
-		width: 100%;
+	.box-1	{
+		align-items: center;
 	}
+
+	
 }
 
