@@ -163,7 +163,7 @@ nav {
 
 /*Di bawah ini perintah untuk diterapkan di elemn body*/
 main	{
-	background-color: #5a5f72;
+	background-color: rgb(252, 251, 249);
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -178,7 +178,7 @@ main	{
 	}
 
 	.utama div	{
-		margin: 2px;
+		margin: 5px;
 	}
 	
 	.konten-utama {
@@ -191,7 +191,7 @@ main	{
 	.konten-aside	{
 		flex: 1;
 		display: flex;
-		flex-direction: column;
+		margin-left: 15px;
 	}
 	
 	
@@ -200,11 +200,13 @@ main	{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	background: url(asset/css/bg-3.jpg);
+	background-size: auto;
 	}
 
 .box-1	{
 	height: auto;
-	margin: 2px;
+	margin: 5px;
 	flex: 2;
 	}
 .box-2 {
@@ -309,7 +311,7 @@ p, dt	{
 }
 
 .ph	{
-	color: white;
+	color:sienna;
 	background: url(asset/css/bg-2.jpg);
 	background-size: 100% 100%;
 	margin: 4px 2px 1px;
@@ -328,25 +330,30 @@ p, dt	{
 /*Di bawah ini perintah untuk diterapkan di elemn asside*/
 
 aside {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	justify-content: start;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 	/* Profil */
 	.profil {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		width: 230px;
+		justify-content: flex-start;
+		width: 96%;
 		background-color: teal;
 		border: 4px solid turquoise;
 		border-radius: 15px 15px 0 0;
+		margin-top: 5px;
 	}
 
-	.profil div {
+	.profil div	{
 		margin: auto;
-		
 	}
 
 	aside th {
@@ -362,7 +369,7 @@ aside {
 	.daftar	{
 		display: flex;
 		flex-direction: row;
-		width: 230px;
+		width: 96%;
 		height: 50px;
 		background-color: purple;
 		color: rgb(252, 251, 249);
@@ -377,11 +384,15 @@ aside {
 
 	.kosongan	{
 		height: 10px;
+		width: 96%;
 	}
+
 	/* Daftar Produk */
 	.display-produk	{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.produk	{
