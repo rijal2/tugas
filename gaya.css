@@ -204,6 +204,11 @@ main	{
 	background-size: auto;
 	}
 
+.angkut-allbox.lain {
+	background: url(asset/css/bg-4.jpg);
+	background-size: auto;
+}
+
 .box-1	{
 	height: auto;
 	margin: 5px;
@@ -311,7 +316,7 @@ p, dt	{
 }
 
 .ph	{
-	color:sienna;
+	color: white;
 	background: url(asset/css/bg-2.jpg);
 	background-size: 100% 100%;
 	margin: 4px 2px 1px;
@@ -481,7 +486,7 @@ a.wa:visited {
 	}
 footer	{
 	background-color:black;
-	border-top: 2px solid yellow;
+	border-top: 8px solid yellow;
 	padding: 5px;
 	color: white;
 	bottom: 0; left: 0;
@@ -513,6 +518,7 @@ footer	{
 	}
 	.konten-aside	{
 	width: 100%;
+	border-top: 7px solid red;
 	}
 
 	.display-produk	{
